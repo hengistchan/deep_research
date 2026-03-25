@@ -52,3 +52,14 @@
 ```
 
 命名规则：仅小写字母、数字与短横线（例如 `llm-eval-2026-q1`）。
+
+## GitHub Pages 部署（Hero 模版）
+仓库已包含一个可直接部署的 Hero 首页：
+- `index.html`
+- `assets/styles.css`
+- `.github/workflows/pages.yml`
+
+部署方式：
+1. 将默认分支设为 `main`。
+2. 推送代码后，GitHub Actions 会自动执行 `Deploy GitHub Pages`。
+3. 在仓库 `Settings -> Pages` 中确认来源为 `GitHub Actions`。
