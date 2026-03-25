@@ -53,7 +53,6 @@
 
 命名规则：仅小写字母、数字与短横线（例如 `llm-eval-2026-q1`）。
 
-
 ## GitHub Pages 部署（Hero 模版）
 仓库已包含一个可直接部署的 Hero 首页：
 - `index.html`
